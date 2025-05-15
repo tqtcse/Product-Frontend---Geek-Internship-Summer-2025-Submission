@@ -1,0 +1,22 @@
+@import 'tailwindcss';
+
+.react-data-table-component {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.react-data-table-component th,
+.react-data-table-component td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.react-data-table-component th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.react-data-table-component tr:hover {
+    background-color: #f1f1f1;
+}
